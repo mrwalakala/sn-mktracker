@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="DELETE">
+        <active>true</active>
+        <admin_panel>a143d7721be55110c7b2a9b4bd4bcb75</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes>{"login":"login","logout": "login"}</auth_routes>
+        <page/>
+        <parent_app/>
+        <path>mario-kart-tracker</path>
+        <root_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-08-30 09:54:58</sys_created_on>
+        <sys_id>b943d7729de55110b9d0ed307e27e390</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mario Kart Tracker</sys_name>
+        <sys_package display_value="Mario Kart Tracker" source="x_684094_mario_k_0">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mario Kart Tracker">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_scope>
+        <sys_update_name>sys_ux_page_registry_b943d7729de55110b9d0ed307e27e390</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-08-30 09:54:58</sys_updated_on>
+        <title>Mario Kart Tracker</title>
+    </sys_ux_page_registry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Mario Kart Tracker">b1cacb761ba55110c7b2a9b4bd4bcba1</application>
+        <file_path/>
+        <instance_id>25c47793dbce73c89df22f17d4961944</instance_id>
+        <instance_name>dev88405</instance_name>
+        <name>sys_ux_page_registry_b943d7729de55110b9d0ed307e27e390</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry"><sys_ux_page_registry action="INSERT_OR_UPDATE"><active>true</active><admin_panel>a143d7721be55110c7b2a9b4bd4bcb75</admin_panel><admin_panel_table>sys_ux_app_config</admin_panel_table><auth_routes>{"login":"login","logout": "login"}</auth_routes><page/><parent_app/><path>mario-kart-tracker</path><root_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</root_macroponent><sys_class_name>sys_ux_page_registry</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2022-08-30 09:54:58</sys_created_on><sys_id>b943d7729de55110b9d0ed307e27e390</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Mario Kart Tracker</sys_name><sys_package display_value="Mario Kart Tracker" source="x_684094_mario_k_0">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_package><sys_policy/><sys_scope display_value="Mario Kart Tracker">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_scope><sys_update_name>sys_ux_page_registry_b943d7729de55110b9d0ed307e27e390</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2022-08-30 09:54:58</sys_updated_on><title>Mario Kart Tracker</title></sys_ux_page_registry></record_update>]]></payload>
+        <payload_hash>-242150322</payload_hash>
+        <record_name>Mario Kart Tracker</record_name>
+        <reverted_from/>
+        <source>719fc6121b111110c7b2a9b4bd4bcb10</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2022-08-16 05:26:24</sys_created_on>
+        <sys_id>38f35f721be55110c7b2a9b4bd4bcb77</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>182a51e04000000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Application</type>
+        <update_guid>f4f35f72e1e5511024605dbcc3d4a777</update_guid>
+        <update_guid_history>f4f35f72e1e5511024605dbcc3d4a777:-242150322</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alberto.colombo</sys_created_by>
+        <sys_created_on>2022-08-30 09:57:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_registry">sys_ux_page_registry</sys_db_object>
+        <sys_id>a70e75215a854ed0af958ac9a5836e40</sys_id>
+        <sys_metadata>b943d7729de55110b9d0ed307e27e390</sys_metadata>
+        <sys_name>Mario Kart Tracker</sys_name>
+        <sys_package display_value="Mario Kart Tracker" source="x_684094_mario_k_0">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Mario Kart Tracker">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_scope>
+        <sys_scope_delete display_value="">207b50c766fb4a82877154c29500a9a4</sys_scope_delete>
+        <sys_update_name>sys_ux_page_registry_b943d7729de55110b9d0ed307e27e390</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_registry_b943d7729de55110b9d0ed307e27e390">38f35f721be55110c7b2a9b4bd4bcb77</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

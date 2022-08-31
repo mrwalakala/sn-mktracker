@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row">
+    <sp_row action="INSERT_OR_UPDATE">
+        <class_name/>
+        <order>3</order>
+        <sp_column/>
+        <sp_container display_value="mk_index - Container 1">8b1cc0131b2d9110c7b2a9b4bd4bcbfd</sp_container>
+        <sys_class_name>sp_row</sys_class_name>
+        <sys_created_by>alberto.colombo</sys_created_by>
+        <sys_created_on>2022-08-31 08:42:00</sys_created_on>
+        <sys_id>993c0cdf1be99110c7b2a9b4bd4bcb4e</sys_id>
+        <sys_name>3</sys_name>
+        <sys_package display_value="Mario Kart Tracker" source="x_684094_mario_k_0">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mario Kart Tracker">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_scope>
+        <sys_update_name>sp_row_993c0cdf1be99110c7b2a9b4bd4bcb4e</sys_update_name>
+    </sp_row>
+</record_update>

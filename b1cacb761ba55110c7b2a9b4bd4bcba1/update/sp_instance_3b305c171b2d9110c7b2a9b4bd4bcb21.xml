@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">1920dc171b2d9110c7b2a9b4bd4bcbca</sp_column>
+        <sp_widget display_value="link-button">abc50de6d702120023c84f80de61036a</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>alberto.colombo</sys_created_by>
+        <sys_created_on>2022-08-31 08:59:39</sys_created_on>
+        <sys_id>3b305c171b2d9110c7b2a9b4bd4bcb21</sys_id>
+        <sys_name/>
+        <sys_package display_value="Mario Kart Tracker" source="x_684094_mario_k_0">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mario Kart Tracker">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_scope>
+        <sys_update_name>sp_instance_3b305c171b2d9110c7b2a9b4bd4bcb21</sys_update_name>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"href": {
+		"value": "/mk?id=kb_article&sys_id=8550d0571b2d9110c7b2a9b4bd4bcba2",
+		"displayValue": "/mk?id=kb_article&sys_id=8550d0571b2d9110c7b2a9b4bd4bcba2"
+	},
+	"button_text": {
+		"value": "Tournament Rules",
+		"displayValue": "Tournament Rules"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=3b305c171b2d9110c7b2a9b4bd4bcb21"/>
+</record_update>

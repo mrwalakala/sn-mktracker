@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_addon_event_mapping">
+    <sys_ux_addon_event_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <controller/>
+        <description/>
+        <name>Task Mapping</name>
+        <parent_macroponent display_value="Landing Page">7d43d772fce5511015a9a5b45d47c29e</parent_macroponent>
+        <source_component/>
+        <source_da display_value="navigation">d46f400473211010c342d5fdbdf6a7cf</source_da>
+        <source_element_id>data_row_1</source_element_id>
+        <sys_class_name>sys_ux_addon_event_mapping</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-08-30 09:54:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3543d772abe55110a28d5f2bb6262c9e</sys_id>
+        <sys_name>Task Mapping</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Mario Kart Tracker" source="x_684094_mario_k_0">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mario Kart Tracker">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_scope>
+        <sys_update_name>sys_ux_addon_event_mapping_3543d772abe55110a28d5f2bb6262c9e</sys_update_name>
+        <target_event display_value="My tasks">f143d77290e551105858ac86b0b1e59e</target_event>
+        <target_payload_mapping>{
+  "type": "MAP_CONTAINER",
+  "container": {
+    "sysId": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "sysId"
+        ]
+      }
+    },
+    "table": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "table"
+        ]
+      }
+    }
+  }
+}</target_payload_mapping>
+    </sys_ux_addon_event_mapping>
+</record_update>

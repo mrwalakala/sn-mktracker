@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name>FlowTemplate_Empty</copied_from_name>
+        <description/>
+        <internal_name>approve_participant</internal_name>
+        <label_cache>[{"name":"dfa4bdd6-f155-41c8-89bb-7d5e388c630e.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"dfa4bdd6-f155-41c8-89bb-7d5e388c630e.__action_status__","label":"1 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"dfa4bdd6-f155-41c8-89bb-7d5e388c630e.__dont_treat_as_error__","label":"1 - Ask For Approval➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Participant Record","reference":"x_684094_mario_k_0_participant","reference_display":"Participant","type":"reference","base_type":"reference","attributes":{}},{"name":"{{static.c960f6d41b651110c7b2a9b4bd4bcb8a}}","label":"Alberto Colombo","reference":"sys_user","type":"reference","base_type":"reference"},{"name":"a76fa566-5cf8-4072-9234-878471fd014d.record","label":"3 - Update Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a76fa566-5cf8-4072-9234-878471fd014d.table_name","label":"3 - Update Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a76fa566-5cf8-4072-9234-878471fd014d.__action_status__","label":"3 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"a76fa566-5cf8-4072-9234-878471fd014d.__dont_treat_as_error__","label":"3 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Approve Participant</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>alberto.colombo</sys_created_by>
+        <sys_created_on>2022-08-30 09:36:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>62fec3fa1ba55110c7b2a9b4bd4bcbbd</sys_id>
+        <sys_name>Approve Participant</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Mario Kart Tracker" source="x_684094_mario_k_0">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mario Kart Tracker">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_scope>
+        <sys_update_name>sys_hub_flow_62fec3fa1ba55110c7b2a9b4bd4bcbbd</sys_update_name>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=62fec3fa1ba55110c7b2a9b4bd4bcbbd"/>
+    <sys_variable_value action="delete_multiple" query="document_key=62fec3fa1ba55110c7b2a9b4bd4bcbbd"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=62fec3fa1ba55110c7b2a9b4bd4bcbbd^sys_idNOT IN92af4b3e1ba55110c7b2a9b4bd4bcb85"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Approve Participant">62fec3fa1ba55110c7b2a9b4bd4bcbbd</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>alberto.colombo</sys_created_by>
+        <sys_created_on>2022-08-30 09:38:59</sys_created_on>
+        <sys_id>92af4b3e1ba55110c7b2a9b4bd4bcb85</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>alberto.colombo</sys_updated_by>
+        <sys_updated_on>2022-08-30 09:38:59</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=92af4b3e1ba55110c7b2a9b4bd4bcb85"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>92af4b3e1ba55110c7b2a9b4bd4bcb85</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alberto.colombo</sys_created_by>
+        <sys_created_on>2022-08-30 09:38:59</sys_created_on>
+        <sys_id>5eaf4b3e1ba55110c7b2a9b4bd4bcb86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alberto.colombo</sys_updated_by>
+        <sys_updated_on>2022-08-30 09:38:59</sys_updated_on>
+        <value>x_684094_mario_k_0_participant</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>92af4b3e1ba55110c7b2a9b4bd4bcb85</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alberto.colombo</sys_created_by>
+        <sys_created_on>2022-08-30 09:38:59</sys_created_on>
+        <sys_id>d2af4b3e1ba55110c7b2a9b4bd4bcb86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alberto.colombo</sys_updated_by>
+        <sys_updated_on>2022-08-30 09:38:59</sys_updated_on>
+        <value>confirmed=false</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=62fec3fa1ba55110c7b2a9b4bd4bcbbd"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=62fec3fa1ba55110c7b2a9b4bd4bcbbd^sys_idNOT IN66fec3fa1ba55110c7b2a9b4bd4bcbbf"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>62fec3fa1ba55110c7b2a9b4bd4bcbbd</id>
+        <name>Approve Participant</name>
+        <sys_created_by>alberto.colombo</sys_created_by>
+        <sys_created_on>2022-08-30 09:36:00</sys_created_on>
+        <sys_id>66fec3fa1ba55110c7b2a9b4bd4bcbbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>alberto.colombo</sys_updated_by>
+        <sys_updated_on>2022-08-30 09:36:00</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=66fec3fa1ba55110c7b2a9b4bd4bcbbf"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=62fec3fa1ba55110c7b2a9b4bd4bcbbd^sys_idNOT IN96af4b3e1ba55110c7b2a9b4bd4bcb7f,ceaf4b3e1ba55110c7b2a9b4bd4bcb3b"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Approve Participant">62fec3fa1ba55110c7b2a9b4bd4bcbbd</model>
+        <model_id>62fec3fa1ba55110c7b2a9b4bd4bcbbd</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_62fec3fa1ba55110c7b2a9b4bd4bcbbd</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>alberto.colombo</sys_created_by>
+        <sys_created_on>2022-08-30 09:38:59</sys_created_on>
+        <sys_id>96af4b3e1ba55110c7b2a9b4bd4bcb7f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Mario Kart Tracker">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>alberto.colombo</sys_updated_by>
+        <sys_updated_on>2022-08-30 09:38:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Approve Participant">62fec3fa1ba55110c7b2a9b4bd4bcbbd</model>
+        <model_id>62fec3fa1ba55110c7b2a9b4bd4bcbbd</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_62fec3fa1ba55110c7b2a9b4bd4bcbbd</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>alberto.colombo</sys_created_by>
+        <sys_created_on>2022-08-30 09:38:58</sys_created_on>
+        <sys_id>ceaf4b3e1ba55110c7b2a9b4bd4bcb3b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Mario Kart Tracker">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>alberto.colombo</sys_updated_by>
+        <sys_updated_on>2022-08-30 09:38:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=62fec3fa1ba55110c7b2a9b4bd4bcbbd"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=62fec3fa1ba55110c7b2a9b4bd4bcbbd"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=62fec3fa1ba55110c7b2a9b4bd4bcbbd^sys_idNOT IN1aaf4b3e1ba55110c7b2a9b4bd4bcb8c,a6af4b3e1ba55110c7b2a9b4bd4bcb99"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Approve Participant">62fec3fa1ba55110c7b2a9b4bd4bcbbd</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>alberto.colombo</sys_created_by>
+        <sys_created_on>2022-08-30 09:38:59</sys_created_on>
+        <sys_id>1aaf4b3e1ba55110c7b2a9b4bd4bcb8c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Mario Kart Tracker">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_scope>
+        <sys_updated_by>alberto.colombo</sys_updated_by>
+        <sys_updated_on>2022-08-30 09:38:59</sys_updated_on>
+        <ui_id>dfa4bdd6-f155-41c8-89bb-7d5e388c630e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1aaf4b3e1ba55110c7b2a9b4bd4bcb8c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1aaf4b3e1ba55110c7b2a9b4bd4bcb8c</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alberto.colombo</sys_created_by>
+        <sys_created_on>2022-08-30 09:38:59</sys_created_on>
+        <sys_id>12af4b3e1ba55110c7b2a9b4bd4bcb90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alberto.colombo</sys_updated_by>
+        <sys_updated_on>2022-08-30 09:38:59</sys_updated_on>
+        <value/>
+        <variable display_value="Due Date">c5f2e9920b10030085c083eb37673af9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1aaf4b3e1ba55110c7b2a9b4bd4bcb8c</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alberto.colombo</sys_created_by>
+        <sys_created_on>2022-08-30 09:38:59</sys_created_on>
+        <sys_id>d2af4b3e1ba55110c7b2a9b4bd4bcb90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alberto.colombo</sys_updated_by>
+        <sys_updated_on>2022-08-30 09:38:59</sys_updated_on>
+        <value>x_684094_mario_k_0_participant</value>
+        <variable display_value="Table">bcf2e9920b10030085c083eb37673acc</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=1aaf4b3e1ba55110c7b2a9b4bd4bcb8c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_conditions</field>
+        <id>1aaf4b3e1ba55110c7b2a9b4bd4bcb8c</id>
+        <sys_created_by>alberto.colombo</sys_created_by>
+        <sys_created_on>2022-08-30 09:38:59</sys_created_on>
+        <sys_id>daaf4b3e1ba55110c7b2a9b4bd4bcb8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alberto.colombo</sys_updated_by>
+        <sys_updated_on>2022-08-30 09:38:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>ApprovesAnyU[{{static.c960f6d41b651110c7b2a9b4bd4bcb8a}}]</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>due_date</field>
+        <id>1aaf4b3e1ba55110c7b2a9b4bd4bcb8c</id>
+        <sys_created_by>alberto.colombo</sys_created_by>
+        <sys_created_on>2022-08-30 09:38:59</sys_created_on>
+        <sys_id>1aaf4b3e1ba55110c7b2a9b4bd4bcb8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alberto.colombo</sys_updated_by>
+        <sys_updated_on>2022-08-30 09:38:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>1aaf4b3e1ba55110c7b2a9b4bd4bcb8c</id>
+        <sys_created_by>alberto.colombo</sys_created_by>
+        <sys_created_on>2022-08-30 09:38:59</sys_created_on>
+        <sys_id>12af4b3e1ba55110c7b2a9b4bd4bcb8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alberto.colombo</sys_updated_by>
+        <sys_updated_on>2022-08-30 09:38:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>1aaf4b3e1ba55110c7b2a9b4bd4bcb8c</id>
+        <sys_created_by>alberto.colombo</sys_created_by>
+        <sys_created_on>2022-08-30 09:38:59</sys_created_on>
+        <sys_id>9eaf4b3e1ba55110c7b2a9b4bd4bcb8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alberto.colombo</sys_updated_by>
+        <sys_updated_on>2022-08-30 09:38:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1aaf4b3e1ba55110c7b2a9b4bd4bcb8c"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=1aaf4b3e1ba55110c7b2a9b4bd4bcb8c"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Approve Participant">62fec3fa1ba55110c7b2a9b4bd4bcbbd</flow>
+        <order>3</order>
+        <parent_ui_id>4aa319af-925d-4974-ae8f-bd91d74be6e6</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>alberto.colombo</sys_created_by>
+        <sys_created_on>2022-08-30 09:39:00</sys_created_on>
+        <sys_id>a6af4b3e1ba55110c7b2a9b4bd4bcb99</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Mario Kart Tracker">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_scope>
+        <sys_updated_by>alberto.colombo</sys_updated_by>
+        <sys_updated_on>2022-08-30 09:39:00</sys_updated_on>
+        <ui_id>a76fa566-5cf8-4072-9234-878471fd014d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a6af4b3e1ba55110c7b2a9b4bd4bcb99"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a6af4b3e1ba55110c7b2a9b4bd4bcb99</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alberto.colombo</sys_created_by>
+        <sys_created_on>2022-08-30 09:39:00</sys_created_on>
+        <sys_id>2aaf4b3e1ba55110c7b2a9b4bd4bcb9b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alberto.colombo</sys_updated_by>
+        <sys_updated_on>2022-08-30 09:39:00</sys_updated_on>
+        <value>x_684094_mario_k_0_participant</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a6af4b3e1ba55110c7b2a9b4bd4bcb99</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alberto.colombo</sys_created_by>
+        <sys_created_on>2022-08-30 09:39:00</sys_created_on>
+        <sys_id>66af4b3e1ba55110c7b2a9b4bd4bcb9b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alberto.colombo</sys_updated_by>
+        <sys_updated_on>2022-08-30 09:39:00</sys_updated_on>
+        <value>confirmed=true</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a6af4b3e1ba55110c7b2a9b4bd4bcb99"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>a6af4b3e1ba55110c7b2a9b4bd4bcb99</id>
+        <sys_created_by>alberto.colombo</sys_created_by>
+        <sys_created_on>2022-08-30 09:39:00</sys_created_on>
+        <sys_id>e2af4b3e1ba55110c7b2a9b4bd4bcb9b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alberto.colombo</sys_updated_by>
+        <sys_updated_on>2022-08-30 09:39:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>a6af4b3e1ba55110c7b2a9b4bd4bcb99</id>
+        <sys_created_by>alberto.colombo</sys_created_by>
+        <sys_created_on>2022-08-30 09:39:00</sys_created_on>
+        <sys_id>6eaf4b3e1ba55110c7b2a9b4bd4bcb9a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alberto.colombo</sys_updated_by>
+        <sys_updated_on>2022-08-30 09:39:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>a6af4b3e1ba55110c7b2a9b4bd4bcb99</id>
+        <sys_created_by>alberto.colombo</sys_created_by>
+        <sys_created_on>2022-08-30 09:39:00</sys_created_on>
+        <sys_id>22af4b3e1ba55110c7b2a9b4bd4bcb9b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alberto.colombo</sys_updated_by>
+        <sys_updated_on>2022-08-30 09:39:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a6af4b3e1ba55110c7b2a9b4bd4bcb99"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a6af4b3e1ba55110c7b2a9b4bd4bcb99"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=62fec3fa1ba55110c7b2a9b4bd4bcbbd"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=62fec3fa1ba55110c7b2a9b4bd4bcbbd^sys_idNOT IN2aaf4b3e1ba55110c7b2a9b4bd4bcb91"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">5aaf4b3e1ba55110c7b2a9b4bd4bcb90</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Approve Participant">62fec3fa1ba55110c7b2a9b4bd4bcbbd</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>alberto.colombo</sys_created_by>
+        <sys_created_on>2022-08-30 09:38:59</sys_created_on>
+        <sys_id>2aaf4b3e1ba55110c7b2a9b4bd4bcb91</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Mario Kart Tracker">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_scope>
+        <sys_updated_by>alberto.colombo</sys_updated_by>
+        <sys_updated_on>2022-08-30 09:38:59</sys_updated_on>
+        <ui_id>4aa319af-925d-4974-ae8f-bd91d74be6e6</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=2aaf4b3e1ba55110c7b2a9b4bd4bcb91"/>
+    <sys_element_mapping action="delete_multiple" query="id=2aaf4b3e1ba55110c7b2a9b4bd4bcb91"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>2aaf4b3e1ba55110c7b2a9b4bd4bcb91</id>
+        <sys_created_by>alberto.colombo</sys_created_by>
+        <sys_created_on>2022-08-30 09:39:00</sys_created_on>
+        <sys_id>26af4b3e1ba55110c7b2a9b4bd4bcb95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alberto.colombo</sys_updated_by>
+        <sys_updated_on>2022-08-30 09:39:00</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{dfa4bdd6-f155-41c8-89bb-7d5e388c630e.approval_state}}=approved</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=2aaf4b3e1ba55110c7b2a9b4bd4bcb91"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2aaf4b3e1ba55110c7b2a9b4bd4bcb91"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=62fec3fa1ba55110c7b2a9b4bd4bcbbd"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=62fec3fa1ba55110c7b2a9b4bd4bcbbd"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_62fec3fa1ba55110c7b2a9b4bd4bcbbd^sys_idNOT IN1eaf4b3e1ba55110c7b2a9b4bd4bcb81,d6af4b3e1ba55110c7b2a9b4bd4bcb7e"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_62fec3fa1ba55110c7b2a9b4bd4bcbbd</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>alberto.colombo</sys_created_by>
+        <sys_created_on>2022-08-30 09:38:59</sys_created_on>
+        <sys_id>1eaf4b3e1ba55110c7b2a9b4bd4bcb81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Mario Kart Tracker" source="x_684094_mario_k_0">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mario Kart Tracker">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>alberto.colombo</sys_updated_by>
+        <sys_updated_on>2022-08-30 09:38:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_62fec3fa1ba55110c7b2a9b4bd4bcbbd</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>alberto.colombo</sys_created_by>
+        <sys_created_on>2022-08-30 09:38:59</sys_created_on>
+        <sys_id>d6af4b3e1ba55110c7b2a9b4bd4bcb7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Mario Kart Tracker" source="x_684094_mario_k_0">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mario Kart Tracker">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>alberto.colombo</sys_updated_by>
+        <sys_updated_on>2022-08-30 09:38:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_62fec3fa1ba55110c7b2a9b4bd4bcbbd"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_62fec3fa1ba55110c7b2a9b4bd4bcbbd"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_62fec3fa1ba55110c7b2a9b4bd4bcbbd"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=62fec3fa1ba55110c7b2a9b4bd4bcbbd"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=62fec3fa1ba55110c7b2a9b4bd4bcbbd"/>
+</record_update>

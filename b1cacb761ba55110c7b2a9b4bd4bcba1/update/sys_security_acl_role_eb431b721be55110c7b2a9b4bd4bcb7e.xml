@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-08-30 09:54:54</sys_created_on>
+        <sys_id>eb431b721be55110c7b2a9b4bd4bcb7e</sys_id>
+        <sys_name>3d43d77253e55110d934f0f8763c8e9f.snc_internal</sys_name>
+        <sys_package display_value="Mario Kart Tracker" source="x_684094_mario_k_0">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mario Kart Tracker">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_scope>
+        <sys_security_acl display_value="3d43d77253e55110d934f0f8763c8e9f">3543d77226e55110360e06cadb104da0</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_eb431b721be55110c7b2a9b4bd4bcb7e</sys_update_name>
+        <sys_user_role display_value="snc_internal" name="snc_internal">7fcaa702933002009c8579b4f47ffbde</sys_user_role>
+        <transaction_id>d93317721be55110c7b2a9b4bd4bcb13</transaction_id>
+    </sys_security_acl_role>
+</record_update>

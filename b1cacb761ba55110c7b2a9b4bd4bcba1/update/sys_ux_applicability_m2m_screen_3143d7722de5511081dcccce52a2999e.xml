@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_screen">
+    <sys_ux_applicability_m2m_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability display_value="Public">b143d77280e55110c14400adf0a62da3</applicability>
+        <order>0</order>
+        <screen display_value="Login Default">bd43d77292e55110af083340cabccf9d</screen>
+        <sys_class_name>sys_ux_applicability_m2m_screen</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-08-30 09:54:53</sys_created_on>
+        <sys_id>3143d7722de5511081dcccce52a2999e</sys_id>
+        <sys_name/>
+        <sys_package display_value="Mario Kart Tracker" source="x_684094_mario_k_0">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mario Kart Tracker">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_screen_3143d7722de5511081dcccce52a2999e</sys_update_name>
+    </sys_ux_applicability_m2m_screen>
+</record_update>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
+    <sys_ux_data_broker_transform action="INSERT_OR_UPDATE">
+        <acl_failure_result/>
+        <api_name>x_684094_mario_k_0.Boolean reversal transform</api_name>
+        <description>Required because the buttons prop is true to disable and false to enable, and also to fetch the Custom portal settings page text</description>
+        <mutates_server_data>false</mutates_server_data>
+        <name>Boolean reversal transform</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[&#13;
+  {&#13;
+    "name": "broker",&#13;
+    "label": "GraphQL Broker",&#13;
+    "fieldType": "json",&#13;
+    "valueType": "object",&#13;
+    "readOnly": false,&#13;
+    "mandatory": true,&#13;
+    "description": "Graphql Query Output"&#13;
+  }&#13;
+]</props>
+        <required_translations>[{"message":"Graphql Query Output","comment":""},{"message":"GraphQL Broker","comment":""}]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function transform(input) {
+	var modelData = input.broker.data.GlideRecord_Query.sys_properties._results[0].value.value;
+	var mfa = {};
+	if(modelData == "false"){
+		mfa.value = "true";
+		mfa.text = gs.getMessage("Please enable Multi-factor authentication on the instance.");
+	}
+	else{
+		mfa.value = "false";
+		mfa.text = gs.getMessage("Configure Multi-factor authentication by clicking the button below");
+	}
+	return mfa;
+}
+]]></script>
+        <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-08-30 09:54:51</sys_created_on>
+        <sys_id>3943d77204e55110cb4681fc527c0a9f</sys_id>
+        <sys_name>Boolean reversal transform</sys_name>
+        <sys_package display_value="Mario Kart Tracker" source="x_684094_mario_k_0">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mario Kart Tracker">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_scope>
+        <sys_update_name>sys_ux_data_broker_transform_3943d77204e55110cb4681fc527c0a9f</sys_update_name>
+    </sys_ux_data_broker_transform>
+    <sys_translated_text action="delete_multiple" query="documentkey=3943d77204e55110cb4681fc527c0a9f"/>
+</record_update>

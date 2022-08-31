@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Create Match">a19257321be55110c7b2a9b4bd4bcbf5</sc_cat_item>
+        <sc_category display_value="Records">bbb0d3be1ba55110c7b2a9b4bd4bcb7b</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>alberto.colombo</sys_created_by>
+        <sys_created_on>2022-08-30 09:53:46</sys_created_on>
+        <sys_id>760313721be55110c7b2a9b4bd4bcb94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Records.Create Match</sys_name>
+        <sys_package display_value="Mario Kart Tracker" source="x_684094_mario_k_0">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mario Kart Tracker">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_scope>
+        <sys_update_name>sc_cat_item_category_760313721be55110c7b2a9b4bd4bcb94</sys_update_name>
+        <sys_updated_by>alberto.colombo</sys_updated_by>
+        <sys_updated_on>2022-08-30 09:53:46</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Mario Kart Tracker">b1cacb761ba55110c7b2a9b4bd4bcba1</application>
+        <file_path/>
+        <instance_id>25c47793dbce73c89df22f17d4961944</instance_id>
+        <instance_name>dev88405</instance_name>
+        <name>sc_cat_item_category_760313721be55110c7b2a9b4bd4bcb94</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Create Match">a19257321be55110c7b2a9b4bd4bcbf5</sc_cat_item><sc_category display_value="Records">bbb0d3be1ba55110c7b2a9b4bd4bcb7b</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>alberto.colombo</sys_created_by><sys_created_on>2022-08-30 09:53:46</sys_created_on><sys_id>760313721be55110c7b2a9b4bd4bcb94</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Records.Create Match</sys_name><sys_package display_value="Mario Kart Tracker" source="x_684094_mario_k_0">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_package><sys_policy/><sys_scope display_value="Mario Kart Tracker">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_scope><sys_update_name>sc_cat_item_category_760313721be55110c7b2a9b4bd4bcb94</sys_update_name><sys_updated_by>alberto.colombo</sys_updated_by><sys_updated_on>2022-08-30 09:53:46</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-1987199405</payload_hash>
+        <record_name>Records.Create Match</record_name>
+        <reverted_from/>
+        <source>f5cacb761ba55110c7b2a9b4bd4bcbaf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>alberto.colombo</sys_created_by>
+        <sys_created_on>2022-08-30 09:53:46</sys_created_on>
+        <sys_id>be0313721be55110c7b2a9b4bd4bcb97</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182ee2bd6190000001</sys_recorded_at>
+        <sys_updated_by>alberto.colombo</sys_updated_by>
+        <sys_updated_on>2022-08-30 09:53:46</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>36031372f8e55110251bda936f6f6a97</update_guid>
+        <update_guid_history>36031372f8e55110251bda936f6f6a97:-1987199405</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Records.Create Match">611353721be55110c7b2a9b4bd4bcb6f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alberto.colombo</sys_created_by>
+        <sys_created_on>2022-08-30 09:53:57</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>24b78f68b95f49a69a99cd49678606c4</sys_id>
+        <sys_metadata>760313721be55110c7b2a9b4bd4bcb94</sys_metadata>
+        <sys_name>Records.Create Match</sys_name>
+        <sys_package display_value="Mario Kart Tracker" source="x_684094_mario_k_0">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Mario Kart Tracker">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_scope>
+        <sys_scope_delete display_value="">207b50c766fb4a82877154c29500a9a4</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_760313721be55110c7b2a9b4bd4bcb94</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_760313721be55110c7b2a9b4bd4bcb94">be0313721be55110c7b2a9b4bd4bcb97</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

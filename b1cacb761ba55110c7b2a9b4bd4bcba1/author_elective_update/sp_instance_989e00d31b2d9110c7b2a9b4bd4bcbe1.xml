@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">ba6e00931b2d9110c7b2a9b4bd4bcb4b</sp_column>
+        <sp_widget display_value="Quick Links">dae53627530030101865ddeeff7b12be</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>alberto.colombo</sys_created_by>
+        <sys_created_on>2022-08-31 08:52:18</sys_created_on>
+        <sys_id>989e00d31b2d9110c7b2a9b4bd4bcbe1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Mario Kart Tracker" source="x_684094_mario_k_0">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mario Kart Tracker">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_scope>
+        <sys_update_name>sp_instance_989e00d31b2d9110c7b2a9b4bd4bcbe1</sys_update_name>
+        <sys_updated_by>alberto.colombo</sys_updated_by>
+        <sys_updated_on>2022-08-31 08:52:18</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=989e00d31b2d9110c7b2a9b4bd4bcbe1"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Mario Kart Tracker">b1cacb761ba55110c7b2a9b4bd4bcba1</application>
+        <file_path/>
+        <instance_id>25c47793dbce73c89df22f17d4961944</instance_id>
+        <instance_name>dev88405</instance_name>
+        <name>sp_instance_989e00d31b2d9110c7b2a9b4bd4bcbe1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">ba6e00931b2d9110c7b2a9b4bd4bcb4b</sp_column><sp_widget display_value="Quick Links">dae53627530030101865ddeeff7b12be</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>alberto.colombo</sys_created_by><sys_created_on>2022-08-31 08:52:18</sys_created_on><sys_id>989e00d31b2d9110c7b2a9b4bd4bcbe1</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Mario Kart Tracker" source="x_684094_mario_k_0">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_package><sys_policy/><sys_scope display_value="Mario Kart Tracker">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_scope><sys_update_name>sp_instance_989e00d31b2d9110c7b2a9b4bd4bcbe1</sys_update_name><sys_updated_by>alberto.colombo</sys_updated_by><sys_updated_on>2022-08-31 08:52:18</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=989e00d31b2d9110c7b2a9b4bd4bcbe1"/></record_update>]]></payload>
+        <payload_hash>1821739648</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>f5cacb761ba55110c7b2a9b4bd4bcbaf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>alberto.colombo</sys_created_by>
+        <sys_created_on>2022-08-31 08:52:19</sys_created_on>
+        <sys_id>1c9e00d31b2d9110c7b2a9b4bd4bcbe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182f319ee3f0000001</sys_recorded_at>
+        <sys_updated_by>alberto.colombo</sys_updated_by>
+        <sys_updated_on>2022-08-31 08:52:19</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>549e00d3062d9110f22280840188eae3</update_guid>
+        <update_guid_history>549e00d3062d9110f22280840188eae3:1821739648</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">4fde04d31b2d9110c7b2a9b4bd4bcbbb</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alberto.colombo</sys_created_by>
+        <sys_created_on>2022-08-31 08:53:35</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>320627d28c664fb898b91279b9b6fe19</sys_id>
+        <sys_metadata>989e00d31b2d9110c7b2a9b4bd4bcbe1</sys_metadata>
+        <sys_name/>
+        <sys_package display_value="Mario Kart Tracker" source="x_684094_mario_k_0">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Mario Kart Tracker">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_scope>
+        <sys_scope_delete display_value="">207b50c766fb4a82877154c29500a9a4</sys_scope_delete>
+        <sys_update_name>sp_instance_989e00d31b2d9110c7b2a9b4bd4bcbe1</sys_update_name>
+        <sys_update_version display_value="sp_instance_989e00d31b2d9110c7b2a9b4bd4bcbe1">1c9e00d31b2d9110c7b2a9b4bd4bcbe3</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

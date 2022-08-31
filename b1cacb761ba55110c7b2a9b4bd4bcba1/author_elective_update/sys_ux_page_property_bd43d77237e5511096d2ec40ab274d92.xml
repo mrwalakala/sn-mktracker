@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>chrome_header</name>
+        <page display_value="">b943d7729de55110b9d0ed307e27e390</page>
+        <required_translations>[]</required_translations>
+        <route display_value="Landing Page">3143d77209e551107dfae480e01d939c</route>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-08-30 09:54:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>bd43d77237e5511096d2ec40ab274d92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="Mario Kart Tracker" source="x_684094_mario_k_0">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mario Kart Tracker">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_scope>
+        <sys_update_name>sys_ux_page_property_bd43d77237e5511096d2ec40ab274d92</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-08-30 09:54:55</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_684094_mario_k_0.b943d7729de55110b9d0ed307e27e390.route.chrome_header.3143d77209e551107dfae480e01d939c</unique_name>
+        <value>{&#13;
+    "privatePage":{&#13;
+       "searchEnabled": false&#13;
+    }&#13;
+}</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Mario Kart Tracker">b1cacb761ba55110c7b2a9b4bd4bcba1</application>
+        <file_path/>
+        <instance_id>25c47793dbce73c89df22f17d4961944</instance_id>
+        <instance_name>dev88405</instance_name>
+        <name>sys_ux_page_property_bd43d77237e5511096d2ec40ab274d92</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>chrome_header</name><page display_value="">b943d7729de55110b9d0ed307e27e390</page><required_translations>[]</required_translations><route display_value="Landing Page">3143d77209e551107dfae480e01d939c</route><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2022-08-30 09:54:55</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>bd43d77237e5511096d2ec40ab274d92</sys_id><sys_mod_count>0</sys_mod_count><sys_name>chrome_header</sys_name><sys_package display_value="Mario Kart Tracker" source="x_684094_mario_k_0">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_package><sys_policy/><sys_scope display_value="Mario Kart Tracker">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_scope><sys_update_name>sys_ux_page_property_bd43d77237e5511096d2ec40ab274d92</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2022-08-30 09:54:55</sys_updated_on><type>json</type><unique_name>x_684094_mario_k_0.b943d7729de55110b9d0ed307e27e390.route.chrome_header.3143d77209e551107dfae480e01d939c</unique_name><value>{&#13;
+    "privatePage":{&#13;
+       "searchEnabled": false&#13;
+    }&#13;
+}</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>-1217509367</payload_hash>
+        <record_name>chrome_header</record_name>
+        <reverted_from/>
+        <source>719fc6121b111110c7b2a9b4bd4bcb10</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2022-08-16 05:26:24</sys_created_on>
+        <sys_id>ddf39bb21be55110c7b2a9b4bd4bcb1b</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>182a51e04000000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Page Property</type>
+        <update_guid>9df39bb2bae551106b3be49163a38e1b</update_guid>
+        <update_guid_history>9df39bb2bae551106b3be49163a38e1b:-1217509367</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alberto.colombo</sys_created_by>
+        <sys_created_on>2022-08-30 09:57:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>af72845b80294ff092023587786e7100</sys_id>
+        <sys_metadata>bd43d77237e5511096d2ec40ab274d92</sys_metadata>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="Mario Kart Tracker" source="x_684094_mario_k_0">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Mario Kart Tracker">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_scope>
+        <sys_scope_delete display_value="">207b50c766fb4a82877154c29500a9a4</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_bd43d77237e5511096d2ec40ab274d92</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_bd43d77237e5511096d2ec40ab274d92">ddf39bb21be55110c7b2a9b4bd4bcb1b</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

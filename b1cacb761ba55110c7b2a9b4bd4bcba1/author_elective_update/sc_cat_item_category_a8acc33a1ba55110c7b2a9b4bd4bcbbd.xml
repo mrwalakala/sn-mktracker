@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Add circuit">106b8bb61ba55110c7b2a9b4bd4bcb08</sc_cat_item>
+        <sc_category display_value="Office">109cdff8c6112276003b17991a09ad65</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>alberto.colombo</sys_created_by>
+        <sys_created_on>2022-08-30 09:25:46</sys_created_on>
+        <sys_id>a8acc33a1ba55110c7b2a9b4bd4bcbbd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Office.Add circuit</sys_name>
+        <sys_package display_value="Mario Kart Tracker" source="x_684094_mario_k_0">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mario Kart Tracker">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_scope>
+        <sys_update_name>sc_cat_item_category_a8acc33a1ba55110c7b2a9b4bd4bcbbd</sys_update_name>
+        <sys_updated_by>alberto.colombo</sys_updated_by>
+        <sys_updated_on>2022-08-30 09:25:46</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Mario Kart Tracker">b1cacb761ba55110c7b2a9b4bd4bcba1</application>
+        <file_path/>
+        <instance_id>25c47793dbce73c89df22f17d4961944</instance_id>
+        <instance_name>dev88405</instance_name>
+        <name>sc_cat_item_category_a8acc33a1ba55110c7b2a9b4bd4bcbbd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Add circuit">106b8bb61ba55110c7b2a9b4bd4bcb08</sc_cat_item><sc_category display_value="Office">109cdff8c6112276003b17991a09ad65</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>alberto.colombo</sys_created_by><sys_created_on>2022-08-30 09:25:46</sys_created_on><sys_id>a8acc33a1ba55110c7b2a9b4bd4bcbbd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Office.Add circuit</sys_name><sys_package display_value="Mario Kart Tracker" source="x_684094_mario_k_0">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_package><sys_policy/><sys_scope display_value="Mario Kart Tracker">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_scope><sys_update_name>sc_cat_item_category_a8acc33a1ba55110c7b2a9b4bd4bcbbd</sys_update_name><sys_updated_by>alberto.colombo</sys_updated_by><sys_updated_on>2022-08-30 09:25:46</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>1198299164</payload_hash>
+        <record_name>Office.Add circuit</record_name>
+        <reverted_from/>
+        <source>f5cacb761ba55110c7b2a9b4bd4bcbaf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>alberto.colombo</sys_created_by>
+        <sys_created_on>2022-08-30 09:25:46</sys_created_on>
+        <sys_id>68acc33a1ba55110c7b2a9b4bd4bcbc1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182ee1232660000001</sys_recorded_at>
+        <sys_updated_by>alberto.colombo</sys_updated_by>
+        <sys_updated_on>2022-08-30 09:25:46</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>ecacc33a4ea5511083b8f947007a32c0</update_guid>
+        <update_guid_history>ecacc33a4ea5511083b8f947007a32c0:1198299164</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Office.Add circuit">2022dbfe1ba55110c7b2a9b4bd4bcbc5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alberto.colombo</sys_created_by>
+        <sys_created_on>2022-08-30 09:49:47</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>0e8d75cfc2e54d54b00b84b9780af310</sys_id>
+        <sys_metadata>a8acc33a1ba55110c7b2a9b4bd4bcbbd</sys_metadata>
+        <sys_name>Office.Add circuit</sys_name>
+        <sys_package display_value="Mario Kart Tracker" source="x_684094_mario_k_0">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Mario Kart Tracker">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_scope>
+        <sys_scope_delete display_value="">207b50c766fb4a82877154c29500a9a4</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_a8acc33a1ba55110c7b2a9b4bd4bcbbd</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_a8acc33a1ba55110c7b2a9b4bd4bcbbd">68acc33a1ba55110c7b2a9b4bd4bcbc1</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Add circuit">106b8bb61ba55110c7b2a9b4bd4bcb08</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>alberto.colombo</sys_created_by>
+        <sys_created_on>2022-08-30 09:21:31</sys_created_on>
+        <sys_id>a2ab03f61ba55110c7b2a9b4bd4bcb2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Add circuit</sys_name>
+        <sys_package display_value="Mario Kart Tracker" source="x_684094_mario_k_0">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mario Kart Tracker">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_a2ab03f61ba55110c7b2a9b4bd4bcb2d</sys_update_name>
+        <sys_updated_by>alberto.colombo</sys_updated_by>
+        <sys_updated_on>2022-08-30 09:21:31</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Mario Kart Tracker">b1cacb761ba55110c7b2a9b4bd4bcba1</application>
+        <file_path/>
+        <instance_id>25c47793dbce73c89df22f17d4961944</instance_id>
+        <instance_name>dev88405</instance_name>
+        <name>sc_cat_item_catalog_a2ab03f61ba55110c7b2a9b4bd4bcb2d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Add circuit">106b8bb61ba55110c7b2a9b4bd4bcb08</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>alberto.colombo</sys_created_by><sys_created_on>2022-08-30 09:21:31</sys_created_on><sys_id>a2ab03f61ba55110c7b2a9b4bd4bcb2d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Add circuit</sys_name><sys_package display_value="Mario Kart Tracker" source="x_684094_mario_k_0">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_package><sys_policy/><sys_scope display_value="Mario Kart Tracker">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_scope><sys_update_name>sc_cat_item_catalog_a2ab03f61ba55110c7b2a9b4bd4bcb2d</sys_update_name><sys_updated_by>alberto.colombo</sys_updated_by><sys_updated_on>2022-08-30 09:21:31</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>693339647</payload_hash>
+        <record_name>Service Catalog.Add circuit</record_name>
+        <reverted_from/>
+        <source>f5cacb761ba55110c7b2a9b4bd4bcbaf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>alberto.colombo</sys_created_by>
+        <sys_created_on>2022-08-30 09:21:32</sys_created_on>
+        <sys_id>e2ab03f61ba55110c7b2a9b4bd4bcb55</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182ee0e519e0000001</sys_recorded_at>
+        <sys_updated_by>alberto.colombo</sys_updated_by>
+        <sys_updated_on>2022-08-30 09:21:32</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>6aab03f6e6a5511065c181e97fef7954</update_guid>
+        <update_guid_history>6aab03f6e6a5511065c181e97fef7954:693339647</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Add circuit">aacb83f61ba55110c7b2a9b4bd4bcbeb</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alberto.colombo</sys_created_by>
+        <sys_created_on>2022-08-30 09:22:04</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>33fb563355134d8b917523df886ff2f1</sys_id>
+        <sys_metadata>a2ab03f61ba55110c7b2a9b4bd4bcb2d</sys_metadata>
+        <sys_name>Service Catalog.Add circuit</sys_name>
+        <sys_package display_value="Mario Kart Tracker" source="x_684094_mario_k_0">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_package>
+        <sys_parent display_value="Add circuit">106b8bb61ba55110c7b2a9b4bd4bcb08</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Mario Kart Tracker">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_scope>
+        <sys_scope_delete display_value="">207b50c766fb4a82877154c29500a9a4</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_a2ab03f61ba55110c7b2a9b4bd4bcb2d</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_a2ab03f61ba55110c7b2a9b4bd4bcb2d">e2ab03f61ba55110c7b2a9b4bd4bcb55</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

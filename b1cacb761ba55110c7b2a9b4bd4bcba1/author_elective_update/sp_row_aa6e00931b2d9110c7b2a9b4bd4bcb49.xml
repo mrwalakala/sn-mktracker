@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row">
+    <sp_row action="DELETE">
+        <class_name/>
+        <order>1</order>
+        <sp_column/>
+        <sp_container display_value="mk_index - Container 1">8b1cc0131b2d9110c7b2a9b4bd4bcbfd</sp_container>
+        <sys_class_name>sp_row</sys_class_name>
+        <sys_created_by>alberto.colombo</sys_created_by>
+        <sys_created_on>2022-08-31 08:51:39</sys_created_on>
+        <sys_id>aa6e00931b2d9110c7b2a9b4bd4bcb49</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Mario Kart Tracker" source="x_684094_mario_k_0">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mario Kart Tracker">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_scope>
+        <sys_update_name>sp_row_aa6e00931b2d9110c7b2a9b4bd4bcb49</sys_update_name>
+        <sys_updated_by>alberto.colombo</sys_updated_by>
+        <sys_updated_on>2022-08-31 08:51:39</sys_updated_on>
+    </sp_row>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Mario Kart Tracker">b1cacb761ba55110c7b2a9b4bd4bcba1</application>
+        <file_path/>
+        <instance_id>25c47793dbce73c89df22f17d4961944</instance_id>
+        <instance_name>dev88405</instance_name>
+        <name>sp_row_aa6e00931b2d9110c7b2a9b4bd4bcb49</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row"><sp_row action="INSERT_OR_UPDATE"><class_name/><order>1</order><sp_column/><sp_container display_value="mk_index - Container 1">8b1cc0131b2d9110c7b2a9b4bd4bcbfd</sp_container><sys_class_name>sp_row</sys_class_name><sys_created_by>alberto.colombo</sys_created_by><sys_created_on>2022-08-31 08:51:39</sys_created_on><sys_id>aa6e00931b2d9110c7b2a9b4bd4bcb49</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Mario Kart Tracker" source="x_684094_mario_k_0">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_package><sys_policy/><sys_scope display_value="Mario Kart Tracker">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_scope><sys_update_name>sp_row_aa6e00931b2d9110c7b2a9b4bd4bcb49</sys_update_name><sys_updated_by>alberto.colombo</sys_updated_by><sys_updated_on>2022-08-31 08:51:39</sys_updated_on></sp_row></record_update>]]></payload>
+        <payload_hash>-1708367566</payload_hash>
+        <record_name>1</record_name>
+        <reverted_from/>
+        <source>f5cacb761ba55110c7b2a9b4bd4bcbaf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>alberto.colombo</sys_created_by>
+        <sys_created_on>2022-08-31 08:51:39</sys_created_on>
+        <sys_id>766e00931b2d9110c7b2a9b4bd4bcb4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182f319529c0000001</sys_recorded_at>
+        <sys_updated_by>alberto.colombo</sys_updated_by>
+        <sys_updated_on>2022-08-31 08:51:39</sys_updated_on>
+        <type>Row</type>
+        <update_guid>be6e0093342d911035264459e4e66a4a</update_guid>
+        <update_guid_history>be6e0093342d911035264459e4e66a4a:-1708367566</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="1">68ee44d31b2d9110c7b2a9b4bd4bcbc7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alberto.colombo</sys_created_by>
+        <sys_created_on>2022-08-31 08:53:41</sys_created_on>
+        <sys_db_object display_value="" name="sp_row">sp_row</sys_db_object>
+        <sys_id>618da21c652149e49ce512d0a81285a4</sys_id>
+        <sys_metadata>aa6e00931b2d9110c7b2a9b4bd4bcb49</sys_metadata>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Mario Kart Tracker" source="x_684094_mario_k_0">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Mario Kart Tracker">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_scope>
+        <sys_scope_delete display_value="">207b50c766fb4a82877154c29500a9a4</sys_scope_delete>
+        <sys_update_name>sp_row_aa6e00931b2d9110c7b2a9b4bd4bcb49</sys_update_name>
+        <sys_update_version display_value="sp_row_aa6e00931b2d9110c7b2a9b4bd4bcb49">766e00931b2d9110c7b2a9b4bd4bcb4b</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

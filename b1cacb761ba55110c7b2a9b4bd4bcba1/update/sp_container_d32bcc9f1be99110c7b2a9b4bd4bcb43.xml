@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="INSERT_OR_UPDATE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>mk_participant_page - Container 1</name>
+        <order>1</order>
+        <sp_page display_value="mk_participant_page">011b089f1be99110c7b2a9b4bd4bcbd6</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>alberto.colombo</sys_created_by>
+        <sys_created_on>2022-08-31 08:37:30</sys_created_on>
+        <sys_id>d32bcc9f1be99110c7b2a9b4bd4bcb43</sys_id>
+        <sys_name>mk_participant_page - Container 1</sys_name>
+        <sys_package display_value="Mario Kart Tracker" source="x_684094_mario_k_0">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mario Kart Tracker">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_scope>
+        <sys_update_name>sp_container_d32bcc9f1be99110c7b2a9b4bd4bcb43</sys_update_name>
+        <title/>
+        <width>container</width>
+    </sp_container>
+</record_update>

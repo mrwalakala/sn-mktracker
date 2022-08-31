@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog">
+    <sc_catalog action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <background_color>white</background_color>
+        <description/>
+        <desktop_continue_shopping/>
+        <desktop_home_page/>
+        <desktop_image/>
+        <editors/>
+        <enable_wish_list>false</enable_wish_list>
+        <manager/>
+        <sys_class_name>sc_catalog</sys_class_name>
+        <sys_created_by>alberto.colombo</sys_created_by>
+        <sys_created_on>2022-08-30 09:42:55</sys_created_on>
+        <sys_id>81605b7e1ba55110c7b2a9b4bd4bcb3c</sys_id>
+        <sys_name>Mario Kart Tracker</sys_name>
+        <sys_package display_value="Mario Kart Tracker" source="x_684094_mario_k_0">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mario Kart Tracker">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_scope>
+        <sys_update_name>sc_catalog_81605b7e1ba55110c7b2a9b4bd4bcb3c</sys_update_name>
+        <title>Mario Kart Tracker</title>
+    </sc_catalog>
+    <sys_translated_text action="delete_multiple" query="documentkey=81605b7e1ba55110c7b2a9b4bd4bcb3c"/>
+</record_update>

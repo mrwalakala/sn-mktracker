@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="786c4ff61ba55110c7b2a9b4bd4bcbde" label="Match" max_length="40" name="x_684094_mario_k_0_match" type="collection">
+        <element label="Circuits" max_length="40" name="circuits" reference="x_684094_mario_k_0_circuit" type="glide_list"/>
+        <element label="Participants" max_length="40" name="participants" reference="x_684094_mario_k_0_participant" reference_qual="confirmed=true" reference_qual_condition="confirmed=true" type="glide_list"/>
+    </element>
+</database>

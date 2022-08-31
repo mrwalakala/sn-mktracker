@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_catalog">
+    <m2m_sp_portal_catalog action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <order>100</order>
+        <sc_catalog display_value="Mario Kart Tracker">81605b7e1ba55110c7b2a9b4bd4bcb3c</sc_catalog>
+        <sp_portal display_value="Mario Kart Tracker">f804dbb21be55110c7b2a9b4bd4bcb6c</sp_portal>
+        <sys_class_name>m2m_sp_portal_catalog</sys_class_name>
+        <sys_created_by>alberto.colombo</sys_created_by>
+        <sys_created_on>2022-08-31 08:20:21</sys_created_on>
+        <sys_id>9c47049b1be99110c7b2a9b4bd4bcb3b</sys_id>
+        <sys_name>Mario Kart Tracker.Mario Kart Tracker</sys_name>
+        <sys_package display_value="Mario Kart Tracker" source="x_684094_mario_k_0">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mario Kart Tracker">b1cacb761ba55110c7b2a9b4bd4bcba1</sys_scope>
+        <sys_update_name>m2m_sp_portal_catalog_9c47049b1be99110c7b2a9b4bd4bcb3b</sys_update_name>
+    </m2m_sp_portal_catalog>
+</record_update>

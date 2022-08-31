@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9cbd0b7a1ba55110c7b2a9b4bd4bcb78" label="Participant" max_length="40" name="x_684094_mario_k_0_participant" type="collection">
+        <element label="Confirmed?" max_length="40" name="confirmed" type="boolean"/>
+        <element label="First Name" max_length="255" name="first_name" type="string"/>
+        <element label="Last Name" max_length="255" name="last_name" type="string"/>
+        <element label="Mail" max_length="100" name="mail" type="string"/>
+    </element>
+</database>
