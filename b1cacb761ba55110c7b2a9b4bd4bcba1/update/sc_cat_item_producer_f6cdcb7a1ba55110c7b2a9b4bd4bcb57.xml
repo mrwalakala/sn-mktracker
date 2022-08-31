@@ -15,8 +15,8 @@
         <delivery_time>1970-01-03 00:00:00</delivery_time>
         <description><![CDATA[<p>Welcome!</p>
 <p>You can register for Mario Kart tournament using this form.</p>
-<p>Here you can find the tournament rules</p>
-<p><a title="Tournament Rules" href="/mk?id&#61;kb_article&amp;sys_id&#61;8550d0571b2d9110c7b2a9b4bd4bcba2" target="_blank" rel="noopener noreferrer nofollow">/mk?id&#61;kb_article&amp;sys_id&#61;8550d0571b2d9110c7b2a9b4bd4bcba2</a></p>]]></description>
+<p>Here the rule of the tournament:</p>
+<ul style="list-style-position: inside;"><li>Teams --&gt; Free for all</li><li>Objects --&gt; all objects</li><li>Class --&gt; 100cc</li><li>CPU --&gt; none</li><li>Circuits --&gt; random</li><li>Races --&gt; 4</li></ul>]]></description>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
         <flow_designer_flow/>
