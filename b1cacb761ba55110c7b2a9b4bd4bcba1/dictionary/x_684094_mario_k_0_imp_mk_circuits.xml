@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9136581f1b2d9110c7b2a9b4bd4bcb66" extends="sys_import_set_row" label="imp_mk_circuits" max_length="40" name="x_684094_mario_k_0_imp_mk_circuits" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Circuit" label="Circuit" max_length="40" name="u_circuit" type="string"/>
+    </element>
+</database>

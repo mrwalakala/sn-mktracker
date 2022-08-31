@@ -1,5 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="950e873a1ba55110c7b2a9b4bd4bcb90" sys_domain="global" table="x_684094_mario_k_0_participant" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mail</element>
+            <position>0</position>
+            <sys_created_by>alberto.colombo</sys_created_by>
+            <sys_created_on>2022-08-31 09:32:37</sys_created_on>
+            <sys_id>72c7d89f1b2d9110c7b2a9b4bd4bcb06</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_684094_mario_k_0_participant" sys_domain="global" view="Default view">950e873a1ba55110c7b2a9b4bd4bcb90</sys_ui_section>
+            <sys_updated_by>alberto.colombo</sys_updated_by>
+            <sys_updated_on>2022-08-31 09:32:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>first_name</element>
+            <position>1</position>
+            <sys_created_by>alberto.colombo</sys_created_by>
+            <sys_created_on>2022-08-31 09:32:37</sys_created_on>
+            <sys_id>bac7d89f1b2d9110c7b2a9b4bd4bcb06</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_684094_mario_k_0_participant" sys_domain="global" view="Default view">950e873a1ba55110c7b2a9b4bd4bcb90</sys_ui_section>
+            <sys_updated_by>alberto.colombo</sys_updated_by>
+            <sys_updated_on>2022-08-31 09:32:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>last_name</element>
+            <position>2</position>
+            <sys_created_by>alberto.colombo</sys_created_by>
+            <sys_created_on>2022-08-31 09:32:37</sys_created_on>
+            <sys_id>bec7d89f1b2d9110c7b2a9b4bd4bcb06</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_684094_mario_k_0_participant" sys_domain="global" view="Default view">950e873a1ba55110c7b2a9b4bd4bcb90</sys_ui_section>
+            <sys_updated_by>alberto.colombo</sys_updated_by>
+            <sys_updated_on>2022-08-31 09:32:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>confirmed</element>
+            <position>3</position>
+            <sys_created_by>alberto.colombo</sys_created_by>
+            <sys_created_on>2022-08-31 09:32:37</sys_created_on>
+            <sys_id>b2c7d89f1b2d9110c7b2a9b4bd4bcb07</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_684094_mario_k_0_participant" sys_domain="global" view="Default view">950e873a1ba55110c7b2a9b4bd4bcb90</sys_ui_section>
+            <sys_updated_by>alberto.colombo</sys_updated_by>
+            <sys_updated_on>2022-08-31 09:32:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>
